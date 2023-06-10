@@ -19,7 +19,8 @@ def clock():
 
 
 t1 = threading.Thread(target=clock)
-t1.setDaemon(True)
+t1.daemon = True
+# t1.setDaemon(True)
 t1.start()
 # clock()
 window.mainloop()
