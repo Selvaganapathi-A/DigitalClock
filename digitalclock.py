@@ -6,9 +6,9 @@ import threading
 window: Tk = Tk()
 window.title("Digital Clock")
 window.geometry("640x320")
-window.configure(bg="orangered")
+window.configure(bg="black")
 
-label: Label = Label(window, font=("Poppins", 50, "bold"), bg="orangered", fg="white")
+label: Label = Label(window, font=("Poppins", 50, "bold"), bg="black", fg="#AAAAAA")
 label.pack(padx=10, pady=10)
 
 
